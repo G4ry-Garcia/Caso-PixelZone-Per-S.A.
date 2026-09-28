@@ -12,5 +12,6 @@ print(data)
 # Corroboramos que filas han sido modificadas
 filas_modificadas = data[data[Datos].isin(["Desconocido"]).any(axis=1)]
 print("-" * 200)
+
 print(filas_modificadas)
 
